@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0417F51C19BDFBA200FCE843 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417F51B19BDFBA200FCE843 /* main.swift */; };
+		0417F52319BDFBDD00FCE843 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417F52219BDFBDD00FCE843 /* Car.swift */; };
+		0417F52519BDFF3300FCE843 /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417F52419BDFF3300FCE843 /* TurboCar.swift */; };
+		0417F52719BE045600FCE843 /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417F52619BE045600FCE843 /* HybridCar.swift */; };
+		048962DB19C87A0800E2AF5D /* PickupTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048962DA19C87A0800E2AF5D /* PickupTruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		0417F51819BDFBA200FCE843 /* Unit2Lesson3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Unit2Lesson3; sourceTree = BUILT_PRODUCTS_DIR; };
 		0417F51B19BDFBA200FCE843 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0417F52219BDFBDD00FCE843 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		0417F52419BDFF3300FCE843 /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
+		0417F52619BE045600FCE843 /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
+		048962DA19C87A0800E2AF5D /* PickupTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupTruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				0417F51B19BDFBA200FCE843 /* main.swift */,
+				0417F52219BDFBDD00FCE843 /* Car.swift */,
+				0417F52419BDFF3300FCE843 /* TurboCar.swift */,
+				0417F52619BE045600FCE843 /* HybridCar.swift */,
+				048962DA19C87A0800E2AF5D /* PickupTruck.swift */,
 			);
 			path = Unit2Lesson3;
 			sourceTree = "<group>";
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0417F52319BDFBDD00FCE843 /* Car.swift in Sources */,
 				0417F51C19BDFBA200FCE843 /* main.swift in Sources */,
+				048962DB19C87A0800E2AF5D /* PickupTruck.swift in Sources */,
+				0417F52719BE045600FCE843 /* HybridCar.swift in Sources */,
+				0417F52519BDFF3300FCE843 /* TurboCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +249,7 @@
 				0417F52119BDFBA200FCE843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
